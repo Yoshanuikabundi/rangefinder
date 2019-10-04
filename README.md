@@ -25,14 +25,14 @@ SBP.
 
 Call Rangefinder with the following:
 
-python3 rangefinder.py -a <open structure> -b <closed structure> -f <residues to fit>
+```python3 rangefinder.py -a <open structure> -b <closed structure> -f <residues to fit>```
 
 Additional help and arguments are available with:
 
-python3 rangefinder.py --help
+```python3 rangefinder.py --help```
 
 As an example, maltose binding protein structures and output are provided. 
-example/1anf.pdb and example/1jw4.pdb are taken from the PDB; 
-example/sensor_predict.csv was produced by the command:
+`example/1anf.pdb` and `example/1jw4.pdb` are taken from the PDB; 
+`example/sensor_predict.csv` was produced by the command:
 
-python3 ../rangefinder.py -a 1jw4.pdb -b 1anf.pdb -f 1-110,259-285
+```python3 ../rangefinder.py -a 1jw4.pdb -b 1anf.pdb -f 1-110,259-285```
